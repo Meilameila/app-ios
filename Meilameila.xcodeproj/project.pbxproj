@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD532E211B14BB2700C6C0A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD532E201B14BB2700C6C0A9 /* Images.xcassets */; };
+		DD532E241B14BB2700C6C0A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD532E221B14BB2700C6C0A9 /* LaunchScreen.xib */; };
+		DD532E301B14BB2700C6C0A9 /* MeilameilaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD532E2F1B14BB2700C6C0A9 /* MeilameilaTests.swift */; };
+		DD532E3D1B14BBC000C6C0A9 /* iPad-Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD532E3C1B14BBC000C6C0A9 /* iPad-Welcome.storyboard */; };
+		DD532E411B14BBF900C6C0A9 /* iPhone-Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD532E401B14BBF900C6C0A9 /* iPhone-Welcome.storyboard */; };
+		DD532E431B14BCB400C6C0A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD532E421B14BCB400C6C0A9 /* AppDelegate.swift */; };
+		DD532E471B14BD9800C6C0A9 /* Meilameila.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD532E451B14BD9800C6C0A9 /* Meilameila.xcdatamodeld */; };
+		DD532E541B14C74800C6C0A9 /* MMLWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD532E531B14C74800C6C0A9 /* MMLWelcomeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD532E2A1B14BB2700C6C0A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD532E091B14BB2700C6C0A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD532E101B14BB2700C6C0A9;
+			remoteInfo = Meilameila;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD532E111B14BB2700C6C0A9 /* Meilameila.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meilameila.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD532E151B14BB2700C6C0A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD532E201B14BB2700C6C0A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DD532E231B14BB2700C6C0A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DD532E291B14BB2700C6C0A9 /* MeilameilaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeilameilaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD532E2E1B14BB2700C6C0A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD532E2F1B14BB2700C6C0A9 /* MeilameilaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeilameilaTests.swift; sourceTree = "<group>"; };
+		DD532E3C1B14BBC000C6C0A9 /* iPad-Welcome.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "iPad-Welcome.storyboard"; path = "SupportingFiles/Storyboards/iPad/iPad-Welcome.storyboard"; sourceTree = "<group>"; };
+		DD532E401B14BBF900C6C0A9 /* iPhone-Welcome.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "iPhone-Welcome.storyboard"; path = "SupportingFiles/Storyboards/iPhone/iPhone-Welcome.storyboard"; sourceTree = "<group>"; };
+		DD532E421B14BCB400C6C0A9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = SupportingFiles/BasicFiles/AppDelegate.swift; sourceTree = "<group>"; };
+		DD532E461B14BD9800C6C0A9 /* Meilameila.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Meilameila.xcdatamodel; sourceTree = "<group>"; };
+		DD532E531B14C74800C6C0A9 /* MMLWelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MMLWelcomeViewController.swift; path = "PhaseOne/MainStructure-Front/WelcomeViewController/MMLWelcomeViewController.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD532E0E1B14BB2700C6C0A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD532E261B14BB2700C6C0A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD532E081B14BB2700C6C0A9 = {
+			isa = PBXGroup;
+			children = (
+				DD532E131B14BB2700C6C0A9 /* Meilameila */,
+				DD532E2C1B14BB2700C6C0A9 /* MeilameilaTests */,
+				DD532E121B14BB2700C6C0A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD532E121B14BB2700C6C0A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD532E111B14BB2700C6C0A9 /* Meilameila.app */,
+				DD532E291B14BB2700C6C0A9 /* MeilameilaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD532E131B14BB2700C6C0A9 /* Meilameila */ = {
+			isa = PBXGroup;
+			children = (
+				DD532E401B14BBF900C6C0A9 /* iPhone-Welcome.storyboard */,
+				DD532E551B14C75D00C6C0A9 /* FrontPart */,
+				DD532E501B14C04300C6C0A9 /* BackPart */,
+				DD532E4F1B14C01400C6C0A9 /* AlivePart */,
+				DD532E141B14BB2700C6C0A9 /* Supporting Files */,
+			);
+			path = Meilameila;
+			sourceTree = "<group>";
+		};
+		DD532E141B14BB2700C6C0A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD532E4C1B14BDF100C6C0A9 /* LocalDB */,
+				DD532E4B1B14BDE100C6C0A9 /* Images */,
+				DD532E441B14BCB700C6C0A9 /* BasicFiles */,
+				DD532E391B14BB4100C6C0A9 /* storyboards */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD532E2C1B14BB2700C6C0A9 /* MeilameilaTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD532E2F1B14BB2700C6C0A9 /* MeilameilaTests.swift */,
+				DD532E2D1B14BB2700C6C0A9 /* Supporting Files */,
+			);
+			path = MeilameilaTests;
+			sourceTree = "<group>";
+		};
+		DD532E2D1B14BB2700C6C0A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD532E2E1B14BB2700C6C0A9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD532E391B14BB4100C6C0A9 /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				DD532E3B1B14BB5600C6C0A9 /* iPad */,
+				DD532E3A1B14BB4C00C6C0A9 /* iPhone */,
+			);
+			name = storyboards;
+			sourceTree = "<group>";
+		};
+		DD532E3A1B14BB4C00C6C0A9 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		DD532E3B1B14BB5600C6C0A9 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				DD532E3C1B14BBC000C6C0A9 /* iPad-Welcome.storyboard */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		DD532E441B14BCB700C6C0A9 /* BasicFiles */ = {
+			isa = PBXGroup;
+			children = (
+				DD532E151B14BB2700C6C0A9 /* Info.plist */,
+				DD532E221B14BB2700C6C0A9 /* LaunchScreen.xib */,
+				DD532E421B14BCB400C6C0A9 /* AppDelegate.swift */,
+			);
+			name = BasicFiles;
+			sourceTree = "<group>";
+		};
+		DD532E4A1B14BDB600C6C0A9 /* WelcomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DD532E531B14C74800C6C0A9 /* MMLWelcomeViewController.swift */,
+			);
+			name = WelcomeViewController;
+			sourceTree = "<group>";
+		};
+		DD532E4B1B14BDE100C6C0A9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DD532E201B14BB2700C6C0A9 /* Images.xcassets */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		DD532E4C1B14BDF100C6C0A9 /* LocalDB */ = {
+			isa = PBXGroup;
+			children = (
+				DD532E451B14BD9800C6C0A9 /* Meilameila.xcdatamodeld */,
+			);
+			name = LocalDB;
+			sourceTree = "<group>";
+		};
+		DD532E4F1B14C01400C6C0A9 /* AlivePart */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AlivePart;
+			sourceTree = "<group>";
+		};
+		DD532E501B14C04300C6C0A9 /* BackPart */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = BackPart;
+			sourceTree = "<group>";
+		};
+		DD532E551B14C75D00C6C0A9 /* FrontPart */ = {
+			isa = PBXGroup;
+			children = (
+				DD532E4A1B14BDB600C6C0A9 /* WelcomeViewController */,
+			);
+			name = FrontPart;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD532E101B14BB2700C6C0A9 /* Meilameila */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD532E331B14BB2700C6C0A9 /* Build configuration list for PBXNativeTarget "Meilameila" */;
+			buildPhases = (
+				DD532E0D1B14BB2700C6C0A9 /* Sources */,
+				DD532E0E1B14BB2700C6C0A9 /* Frameworks */,
+				DD532E0F1B14BB2700C6C0A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Meilameila;
+			productName = Meilameila;
+			productReference = DD532E111B14BB2700C6C0A9 /* Meilameila.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD532E281B14BB2700C6C0A9 /* MeilameilaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD532E361B14BB2700C6C0A9 /* Build configuration list for PBXNativeTarget "MeilameilaTests" */;
+			buildPhases = (
+				DD532E251B14BB2700C6C0A9 /* Sources */,
+				DD532E261B14BB2700C6C0A9 /* Frameworks */,
+				DD532E271B14BB2700C6C0A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD532E2B1B14BB2700C6C0A9 /* PBXTargetDependency */,
+			);
+			name = MeilameilaTests;
+			productName = MeilameilaTests;
+			productReference = DD532E291B14BB2700C6C0A9 /* MeilameilaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD532E091B14BB2700C6C0A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MML;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = meilameila.media;
+				TargetAttributes = {
+					DD532E101B14BB2700C6C0A9 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					DD532E281B14BB2700C6C0A9 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = DD532E101B14BB2700C6C0A9;
+					};
+				};
+			};
+			buildConfigurationList = DD532E0C1B14BB2700C6C0A9 /* Build configuration list for PBXProject "Meilameila" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD532E081B14BB2700C6C0A9;
+			productRefGroup = DD532E121B14BB2700C6C0A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD532E101B14BB2700C6C0A9 /* Meilameila */,
+				DD532E281B14BB2700C6C0A9 /* MeilameilaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD532E0F1B14BB2700C6C0A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD532E411B14BBF900C6C0A9 /* iPhone-Welcome.storyboard in Resources */,
+				DD532E3D1B14BBC000C6C0A9 /* iPad-Welcome.storyboard in Resources */,
+				DD532E241B14BB2700C6C0A9 /* LaunchScreen.xib in Resources */,
+				DD532E211B14BB2700C6C0A9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD532E271B14BB2700C6C0A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD532E0D1B14BB2700C6C0A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD532E431B14BCB400C6C0A9 /* AppDelegate.swift in Sources */,
+				DD532E541B14C74800C6C0A9 /* MMLWelcomeViewController.swift in Sources */,
+				DD532E471B14BD9800C6C0A9 /* Meilameila.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD532E251B14BB2700C6C0A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD532E301B14BB2700C6C0A9 /* MeilameilaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD532E2B1B14BB2700C6C0A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD532E101B14BB2700C6C0A9 /* Meilameila */;
+			targetProxy = DD532E2A1B14BB2700C6C0A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD532E221B14BB2700C6C0A9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD532E231B14BB2700C6C0A9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD532E311B14BB2700C6C0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				New_Setting = "";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD532E321B14BB2700C6C0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				New_Setting = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD532E341B14BB2700C6C0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Meilameila/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD532E351B14BB2700C6C0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Meilameila/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD532E371B14BB2700C6C0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MeilameilaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meilameila.app/Meilameila";
+			};
+			name = Debug;
+		};
+		DD532E381B14BB2700C6C0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MeilameilaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meilameila.app/Meilameila";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD532E0C1B14BB2700C6C0A9 /* Build configuration list for PBXProject "Meilameila" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD532E311B14BB2700C6C0A9 /* Debug */,
+				DD532E321B14BB2700C6C0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD532E331B14BB2700C6C0A9 /* Build configuration list for PBXNativeTarget "Meilameila" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD532E341B14BB2700C6C0A9 /* Debug */,
+				DD532E351B14BB2700C6C0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD532E361B14BB2700C6C0A9 /* Build configuration list for PBXNativeTarget "MeilameilaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD532E371B14BB2700C6C0A9 /* Debug */,
+				DD532E381B14BB2700C6C0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DD532E451B14BD9800C6C0A9 /* Meilameila.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DD532E461B14BD9800C6C0A9 /* Meilameila.xcdatamodel */,
+			);
+			currentVersion = DD532E461B14BD9800C6C0A9 /* Meilameila.xcdatamodel */;
+			name = Meilameila.xcdatamodeld;
+			path = CommonFunctions/Meilameila.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DD532E091B14BB2700C6C0A9 /* Project object */;
+}
